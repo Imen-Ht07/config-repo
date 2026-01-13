@@ -1,0 +1,14 @@
+# Configuration DEV pour Surveillance
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/surveillance_db_dev
+  jpa:
+    show-sql: true  # On veut voir les requêtes en dev
+    hibernate:
+      ddl-auto: create-drop  # Recrée la base à chaque démarrage (dev uniquement !)
+
+logging:
+  level:
+    com.projet.microservices.surveillance: DEBUG  # Logs détaillés en dev
+    org.hibernate: DEBUG

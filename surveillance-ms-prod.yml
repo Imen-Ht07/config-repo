@@ -1,0 +1,15 @@
+# Configuration PROD pour Surveillance
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db-prod-server:5432/surveillance_db
+    username: ${DB_USERNAME}  # Variables d'environnement pour la sécurité
+    password: ${DB_PASSWORD}
+  jpa:
+    show-sql: false  # Pas de logs SQL en production
+    hibernate:
+      ddl-auto: validate  # Valide le schéma mais ne modifie pas
+
+logging:
+  level:
+    com.projet.microservices.surveillance: INFO  # Logs standards en prod

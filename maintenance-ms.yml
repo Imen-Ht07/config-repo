@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://maintenance-db:5432/maintenance
-    username: maintenance
-    password: maintenance
+    username: postgres
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
