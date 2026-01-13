@@ -1,4 +1,4 @@
-# Configuration DEV pour Surveillance
+# Configuration DEV pour maintenance
 
 spring:
   datasource:
@@ -10,5 +10,5 @@ spring:
 
 logging:
   level:
-    com.projet.microservices.surveillance: DEBUG  # Logs détaillés en dev
+    com.imen.microservices.maintenance: DEBUG  # Logs détaillés en dev
     org.hibernate: DEBUG

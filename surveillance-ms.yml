@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://surveillance-db:5432/surveillance
-    username: postgres
-    password: postgres
+    username: surveillance
+    password: surveillance
   jpa:
     hibernate:
       ddl-auto: update

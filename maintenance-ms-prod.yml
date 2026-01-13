@@ -1,4 +1,4 @@
-# Configuration PROD pour Surveillance
+# Configuration PROD pour maintenance
 
 spring:
   datasource:
@@ -12,4 +12,4 @@ spring:
 
 logging:
   level:
-    com.projet.microservices.surveillance: INFO  # Logs standards en prod
+    com.imen.microservices.maintenance: INFO  # Logs standards en prod
