@@ -12,4 +12,4 @@ spring:
 
 logging:
   level:
-    com.imen.microservices.maintenance: INFO  # Logs standards en prod
+    com.projet.microservices.maintenance: INFO  # Logs standards en prod

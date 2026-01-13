@@ -10,5 +10,5 @@ spring:
 
 logging:
   level:
-    com.imen.microservices.maintenance: DEBUG  # Logs détaillés en dev
+    com.projet.microservices.maintenance: DEBUG  # Logs détaillés en dev
     org.hibernate: DEBUG
