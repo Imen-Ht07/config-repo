@@ -5,9 +5,6 @@ spring:
     name: api-gateway
   cloud:
     gateway:
-      discovery:
-        locator:
-          enabled: true
       routes:
         - id: surveillance
           uri: lb://surveillance-ms
@@ -20,7 +17,7 @@ spring:
           predicates:
             - Path=/api/maintenance/**
           filters:
-            - StripPrefix=1
+            - StripPrefix=2
   config:
     import: optional:configserver:http://config-server:8888
 
